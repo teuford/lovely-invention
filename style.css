@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+    height: 90%;
+}
+
+#main-text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20pt;
+    text-align: center;
+}
+
+footer {
+    height: 10%;
+}
+
+#footer-text {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+}
