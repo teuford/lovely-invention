@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    -webkit-user-select: none;
     background-color: #344055;
     height: inherit;
     margin: 0;
