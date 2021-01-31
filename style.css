@@ -1,18 +1,12 @@
 html {
+    background-color: #344055;
     height: 100%;
 }
 
 body {
+    background-color: #fff;
     height: inherit;
     margin: 0;
-}
-
-header {
-    background-color: #344055;
-    border-bottom: solid 2px #465672;
-    height: 2em;
-    position: absolute;
-    width: 100%;
 }
 
 main, footer {
