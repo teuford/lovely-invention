@@ -1,4 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: inherit;
     margin: 0;
 }
 
@@ -12,9 +17,15 @@ main {
     height: 90%;
 }
 
-#main-text {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 10vw;
+#heart-image {
+    animation: pulse 1s infinite;
+    height: 40vw;
+}
+
+@keyframes pulse {
+    10% {
+        transform: scale(1.1);
+    }
 }
 
 footer {
